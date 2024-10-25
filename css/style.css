@@ -43,6 +43,8 @@ li{
     
 }
 section{
+    display: flex;
+    gap: 220px;
     background-image: url('../img/');
     height: 87.83dvh;
     background-size: 100% 100%;
@@ -91,4 +93,8 @@ section{
     font-weight: 200;
 
 
+}
+.imagem img{
+    width: auto;
+    height: 600px;
 }
