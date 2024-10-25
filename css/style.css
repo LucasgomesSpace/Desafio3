@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39;');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.logo img{
+    width: auto;
+    height: 50px;
+}
+body{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+nav{
+    display: flex;
+    
+    align-items: center;
+    padding: 45px 20px;
+    height: 60px;
+    width: 100vw;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    color:white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 400px;
+    gap:40px;
+    padding-right: 100px;
+    
+}
+li{
+    
+}
+section{
+    background-image: url('../img/');
+    height: 87.83dvh;
+    background-size: 100% 100%;
+    
+}
+.texto{
+    height: 100%;
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+    font-size: 1.8rem;
+   
+
+}
+.texto h1{
+ width: 30vw;
+ font-weight: 100;
+}
+.texto span{
+    color: white;
+    font-size: small;
+    margin: 30px;
+}
+.texto p{
+
+    font-size: 1.12rem;
+   
+}
+.texto img {
+    width: auto;
+    height: 20px;
+}
+.btn{
+    
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    border:none ;
+    border-radius: 10px;
+    font-weight: 200;
+
+
+}
